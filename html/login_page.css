@@ -1,0 +1,41 @@
+﻿/* The css to customize a button on the login page with a gradient from top left to bottom left with a really subtle gradient. It’s setup to be used by numerous web browsers. If it fails a background colour is also drawn. A border radius is set of 28 pixels, and a border of 1 pixel is drawn around the whole button. The button uses the font Trebuchet, and a font size of 17. With a padding of 16 by 31 pixels. In order to prevent hyperlinks showing, text-decoration is set to none. */
+/* I decided to include the extra gradients after reading this article
+https://robertnyman.com/2010/02/15/css-gradients-for-all-web-browsers-without-using-images/
+*/
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, 
+#5cbf2a));
+	background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', 
+endColorstr='#5cbf2a',GradientType=0);
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	/*text-shadow:0px 1px 0px #2f6627;*/
+}
+
+/* If the button with class of mybutton is hovered over, a new gradient is set for all web browsers. */
+
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, 
+#44c767));
+	background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', 
+endColorstr='#44c767',GradientType=0);
+	background-color:#5cbf2a;
+}

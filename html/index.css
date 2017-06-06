@@ -1,0 +1,67 @@
+﻿/* This CSS style, styles each of the pages on the interface */
+
+/* Style all links */
+a:link, a:visited, a:hover, a:active{
+    /* No decoration and white*/
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the background */
+body {
+    /* A solid colour for browsers that don’t support gradients*/
+    background: #0fb8ad;
+    /* A Linear gradient (at an angle) of a yellow to green colour*/
+    background: linear-gradient(141deg, #c8f194 0, #50BF94 75%);
+    /* Make the body white*/
+    color:white;
+    /* Give the body a 95% opacity */
+    opacity:0.95;
+}
+
+/* For headings */
+h1, tag{
+/* Set the font to Fira Sans. If Fira is not avaliable use serif */
+font-family: 'Fira Sans', sans-serif;
+}
+
+/* For Submit buttons and normal buttons */
+input[type=submit], button, .button{
+    /* Set their colour to green */
+    background-color: #5E5959;
+    /* Style the buttons with no border, a white colour, padding of 15 pixels and 32 pixels, text alignment to the center, no text decoration, to be set inline and a font size of 16 pixels */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 90%;
+    width: 40%;
+    height: 10%;
+}
+
+/* For text inputs and password inputs */
+input[type=text], input[type=password] {
+    /* Set their padding to 12 by 20 pixels. Set their width to 200px, set their box-sizing to border-box mode. Set their colour and curved edges. Set their background colour and prevent resizing */
+    padding: 12px 20px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #5E5959;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+/* For select drop down menus */
+select {
+    /* Set their padding to 12 by 15, width to 130, box-sizing to border-box mode. Border colour, border curved edges and background colour. Prevent resizing */
+    padding: 12px 15px;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #5E5959;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
