@@ -5,7 +5,7 @@ if(!$_SESSION['logged_in'] == True){
 header('Location: index.php');
 }
 // show a personalised welcome back message.
-echo "<br><center><b><font face='verdana' style='font-size:25px'>Welcome back ".$_SESSION['username']."</face>!</b></center>";
+echo "<br><center><b><font face='verdana' style='font-size:25px'>Welcome back ".$_SESSION['username']."</font>!</b></center>";
 ?>
 <html>
 <head>
