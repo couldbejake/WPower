@@ -1,6 +1,4 @@
-# WPower (MVP)
-
-(HIVE + @ring.com) MVP 
+# WPower
 
 A web application for turning home appliances on or off, scheduling lights to come on and viewing data about power usage.
 
@@ -18,6 +16,7 @@ This was created by Jake Nelson for my A2 Edexcel Computing Coursework.
 
 --------------------------[ 2020 EDITION ]-------------------------------
 
+# WPower (MVP)
 
 ## Requirements
 
