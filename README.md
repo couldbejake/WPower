@@ -1,6 +1,6 @@
 # WPower
 
-(HIVE MVP)
+(HIVE + @ring.com) MVP 
 
 A web application for turning home appliances on or off, scheduling lights to come on and viewing data about power usage.
 
