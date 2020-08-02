@@ -1,4 +1,4 @@
-# WPower
+# WPower (MVP)
 
 (HIVE + @ring.com) MVP 
 
@@ -14,3 +14,27 @@ This project was created for use on a Raspberry Pi and made use of the Raspberry
 
 
 This was created by Jake Nelson for my A2 Edexcel Computing Coursework.
+
+
+--------------------------[ 2020 EDITION ]-------------------------------
+
+
+## Requirements
+
+- Linux ( CentOS or Ubuntu Please!... )
+- PHP (5.0) ( Installed via the Command Line )
+- Python (2.7) ( Installed via the Command Line including PIP )
+
+That's literally it server-side.
+
+## Installation
+
+- Install linux
+- Install PHP
+- Install Python
+
+Any problems just post an *ANONYMOUS* message via GitHub.com. :)
+
+Thank you <3
+
+Jake
