@@ -1,5 +1,7 @@
 # WPower
 
+(HIVE MVP)
+
 A web application for turning home appliances on or off, scheduling lights to come on and viewing data about power usage.
 
 - Turn appliances on/off via a panel
